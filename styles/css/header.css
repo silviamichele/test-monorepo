@@ -3,35 +3,43 @@
 * header style config
 *
 */
-
-.header-menu{
+.content-header-nav{
     display: flex;
+    flex-direction: row;
+}
+
+.content-header{
     width: 80%;
-    margin: 0 auto;
-    justify-content: flex-end;
-    align-items: center;
+    margin: 5% auto;
 }
 
-.header-items-list{
-    display: inline-;
-    list-style: none;
-}
-.header-items-list-item{
-    margin: 5%;
-}
-.header-items-list-button:hover{
-    border-bottom: 2px solid #FFD76B;
-    border-radius: 10%;
-}
-
-.header-items-list-button{
-    padding: 5px;
-    text-decoration: none;
-    color: #EFEFEF;
-    opacity: 0.8;
-    font-size: bold;
+.content-header-nav-items{
+    display: inline-flex;
 }
 
 .logo-todo{
     width: 10%;
 }
+
+.btn {
+    border: 0;
+    color: #EFEFEF;
+    width: 100px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.btn-login{
+    border: 2px solid #FFD76B;
+}
+
+.btn-signup{
+    background-color: #212534;
+}
+
+/* 
+ cinza: #EFEFEF
+ amarelo:FFD76B
+ preto-claro: 3B3B48
+ preto-escuro: 212534
+*/

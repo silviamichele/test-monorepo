@@ -4,7 +4,7 @@
 
 .card{
     width: 20%;
-    margin: 5%;
+    margin: 5% auto;
     border-radius: 10px;
     padding: 30px;
     background-color: #212534;

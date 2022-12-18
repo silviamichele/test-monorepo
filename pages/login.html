@@ -13,29 +13,29 @@
     <link rel="stylesheet" href="../styles/css/header.css">
     <link rel="stylesheet" href="../styles/css/form.css">
     <link rel="stylesheet" href="../styles/css/style.css">
+    <link rel="stylesheet" href="../styles/css/login.css">
 </head>
 <body>
-    <header class="header-content">
-        <nav class="header-menu">
-            <div class="header-icon header-higth header-divider">
-                <!-- <img alt="logo-todo" class="logo-todo" src="styles/media/logo-square4.svg"> -->
+    <!-- <img alt="logo-todo" class="logo-todo" src="../styles/media/todoin.svg"> -->
+    <header class="content-header">
+        <nav class="content-header-nav">
+            <div class="content-header-icon">
+                <img alt="logo-todo" class="logo-todo" src="../styles/media/todoin.svg">
             </div>
-            <div class="header-items header-left header-divider-r">
-                <ul class="header-items-list">
-                    <li class="header-items-list-item">
-                        <a class="header-items-list-button" href="#">home</a>
-                    </li>
-                    <li class="header-items-list-item">
-                        <a class="header-items-list-button" href="">signup</a>
-                    </li>
-                    <li class="header-items-list-item">
-                        <a class="header-items-list-button" href="">login</a>
-                    </li>
-                </ul>
+            <div class="content-header-nav-items">
+                <a href="/">
+                    <button class="btn btn-home">home</button>
+                </a>
+                <a href="#signup">
+                    <button class="btn btn-signup">signUp</button>
+                </a>
             </div>
         </nav>
     </header>
-    <div class="content-body">
+    <div class="content-body-flex">
+        <div class="content-logo">
+            <img class="content-logo-welcome" src="../styles/media/welcome-back.svg">
+        </div>
         <div class="login-card card">
             <h2 class="form-title">login</h2>
             <div class="form-login form">
