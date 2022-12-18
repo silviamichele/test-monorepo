@@ -13,21 +13,23 @@
 }
 
 .header-items-list{
-    display: inline-flex;
+    display: inline-;
     list-style: none;
 }
 .header-items-list-item{
     margin: 5%;
 }
+.header-items-list-button:hover{
+    border-bottom: 2px solid #FFD76B;
+    border-radius: 10%;
+}
 
 .header-items-list-button{
     padding: 5px;
     text-decoration: none;
-    color: #0e111a;
-    background-color: #FFD76B;
+    color: #EFEFEF;
     opacity: 0.8;
     font-size: bold;
-    border-radius: 10%;
 }
 
 .logo-todo{

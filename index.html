@@ -13,71 +13,21 @@
     <link rel="stylesheet" href="styles/css/header.css">
     <link rel="stylesheet" href="styles/css/form.css">
     <link rel="stylesheet" href="styles/css/style.css">
+    <link rel="stylesheet" href="styles/css/content-header.css">
 </head>
 <body>
-    <header class="header-content">
-        <nav class="header-menu">
-            <div class="header-icon header-higth header-divider">
-                <img alt="logo-todo" class="logo-todo" src="styles/media/logo-square.svg">
-            </div>
-            <div class="header-items header-left header-divider-r">
-                <ul class="header-items-list">
-                    <li class="header-items-list-item">
-                        <a class="header-items-list-button" href="#">home</a>
-                    </li>
-                    <li class="header-items-list-item">
-                        <a class="header-items-list-button" href="">signup</a>
-                    </li>
-                    <li class="header-items-list-item">
-                        <a class="header-items-list-button" href="">login</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
     <div class="content-body">
-        <div class="login-card card">
-            <h2 class="form-title">login</h2>
-            <div class="form-login form">
-                <form class="form-content" action=".">
-                    <div class="input-field">
-                        <input type="text" class="input-text" placeholder="username">
-                    </div>
-                    <div class="input-field">
-                        <input type="password" class="input-text" placeholder="password">
-                    </div>
-                    <div class="input-field">
-                        <input type="submit" value="login" class="input-submit">
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class="todo-card card">
-            <h2 class="form-title">create a new todo</h2>
-            <div class="form-new-todo">
-                <form class="form-content form" action=".">
-                    <div class="input-field">
-                        <input type="text" class="input-text" placeholder="task title">
-                    </div>
-                    <div class="input-field">
-                        <label for="date-todo">Date to complete</label>
-                        <input type="date" id="date-todo" class="input-text">
-                    </div>
-                    <div class="input-field">
-                        <textarea class="input-text-area">description</textarea>
-                    </div>
-                    <div class="input-field">
-                        <label for="level">priority</label>
-                        <select id="level" class="text-select">
-                            <option value="1" selected>One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                          </select>
-                    </div>
-                    <div class="input-field">
-                        <input type="submit" value="save" class="input-submit">
-                    </div>
-                </form>
+        <div class="content-header">
+            <p class="text-p1">organize and plan your day better</p>
+            <h1 class="text-h1">
+                a new way to record what to-do
+            </h1>
+            <p class="text-p2">
+                clean, easy and practical
+            </p>
+            <div class="content-header-buttons">
+                <button class="btn btn-background">sign-up</button>
+                <button class="btn btn-border">login</button>
             </div>
         </div>
     </div>
