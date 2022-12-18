@@ -1,0 +1,36 @@
+.content-header{
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    color: #EFEFEF;
+    text-align: center;
+}
+.content-header-logo-image{
+    width: 20%;
+}
+.text-h1{
+    margin: 0 auto;
+}
+.content-header-buttons{
+    margin: 10px;
+}
+.btn{
+    border: 0;
+    width: 10%;
+    border-radius: 10px;
+    padding: 2px;
+}
+.btn-background{
+    background-color: #FFD76B;
+    font-weight: bold;
+}
+.btn-border{
+    border: 2px solid #FFD76B;
+    color: #EFEFEF;
+}
+/* 
+ cinza: #EFEFEF
+ amarelo:FFD76B
+ preto-claro: 3B3B48
+ preto-escuro: 212534
+*/
