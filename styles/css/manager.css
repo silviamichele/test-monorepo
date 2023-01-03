@@ -1,0 +1,36 @@
+.header-manager-menu{
+    margin: 5% auto;
+    width: 90%;
+}
+
+.header-manager-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.todo-logo-icon{
+    width: 10%;
+}
+
+.header-manager-item{
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.btn-new-todo{
+    background-color: #FFD76B;
+    color: #212534;
+}
+.btn-normal{
+    border: 1px solid #FFD76B;
+    color: #EFEFEF;
+}
+
+/* 
+ cinza: #EFEFEF
+ amarelo:FFD76B
+ preto-claro: 3B3B48
+ preto-escuro: 212534
+*/

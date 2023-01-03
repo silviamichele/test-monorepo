@@ -10,24 +10,26 @@
 }
 .text-h1{
     margin: 0 auto;
-}
-.content-header-buttons{
-    margin: 10px;
-}
+} 
+
 .btn{
+    margin: 10px;
     border: 0;
+    border-radius: 0;
     width: 10%;
-    border-radius: 10px;
-    padding: 2px;
-    color: #212534;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    color: #EFEFEF;
 }
+
 .btn-background{
     background-color: #FFD76B;
     font-weight: bold;
+    color: #212534;
 }
+
 .btn-border{
     border: 2px solid #FFD76B;
-    color: #EFEFEF;
 }
 /* 
  cinza: #EFEFEF
@@ -35,3 +37,7 @@
  preto-claro: 3B3B48
  preto-escuro: 212534
 */
+
+a{
+    background-color: #3B3B48;
+}
