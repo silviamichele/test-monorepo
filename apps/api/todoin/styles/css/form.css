@@ -1,0 +1,66 @@
+/* 
+
+*/
+
+.card{
+    width: 20%;
+    margin: 5% auto;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #212534;
+    color: #EFEFEF;
+}
+
+.form-content{
+    background-color: #212534;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #212534; */
+}
+
+.form-title{
+    background-color: #212534;
+    text-align: center;
+}
+
+.input-text{
+    border: 0;
+    color: white;
+    max-width: 100%;
+    padding: 2%;
+    /* background-color: #212534; */
+}
+label{
+    background-color: #212534;
+}
+.input-text-area{
+    width: 100%;
+    height: 10%;
+    color: #EFEFEF;
+    border: 0;
+    padding: 2%;
+}
+.text-select{
+    color: #EFEFEF;
+    border: 0;
+    padding: 2%;
+}
+.input-field{
+    margin: 5% 0;
+    background-color: #212534;
+}
+.input-submit{
+    background-color: #FFD76B;
+    border: 0;
+    width: 100%;
+    padding: 10px;
+}
+/* 
+ cinza: #EFEFEF
+ amarelo:FFD76B
+ preto-claro: 3B3B48
+ preto-escuro: 212534
+*/

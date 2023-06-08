@@ -1,0 +1,12 @@
+.content-body-flex{
+    display: flex;
+}
+.content-logo{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+.content-logo-welcome{
+    margin: 0 auto;
+    width: 80%;
+}
