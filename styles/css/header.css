@@ -1,0 +1,44 @@
+/* 
+*
+* header style config
+*
+*/
+.content-header-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.content-header{
+    width: 80%;
+    margin: 5% auto;
+}
+
+.content-header-nav-items{
+    display: inline-flex;
+}
+
+.logo-todo{
+    width: 10%;
+}
+
+.btn-menu {
+    color: #EFEFEF;
+    width: 100px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.btn-login{
+    border: 2px solid #FFD76B;
+}
+
+.btn-signup{
+    background-color: #212534;
+}
+
+/* 
+ cinza: #EFEFEF
+ amarelo:FFD76B
+ preto-claro: 3B3B48
+ preto-escuro: 212534
+*/

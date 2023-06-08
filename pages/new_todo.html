@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"> -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO-In</title>
+
+    <link rel="stylesheet" href="../styles/css/header.css">
+    <link rel="stylesheet" href="../styles/css/form.css">
+    <link rel="stylesheet" href="../styles/css/style.css">
+</head>
+<body>
+    <div class="content-body">
+        <div class="todo-card card">
+            <h2 class="form-title">new todo</h2>
+            <div class="form-new-todo">
+                <form class="form-content form" action=".">
+                    <div class="input-field">
+                        <label for="task-title">title</label>
+                        <input type="text" class="input-text" id="task title">
+                    </div>
+                    <div class="input-field">
+                        <label for="date-todo">Date to complete</label>
+                        <input type="date" id="date-todo" class="input-text">
+                    </div>
+                    <div class="input-field">
+                        <label for="description">description</label>
+                        <textarea class="input-text-area" id="description"></textarea>
+                    </div>
+                    <div class="input-field">
+                        <label for="level">priority</label>
+                        <select id="level" class="text-select">
+                            <option value="1" selected>light</option>
+                            <option value="2">medium</option>
+                            <option value="3">hard</option>
+                          </select>
+                    </div>
+                    <div class="input-field">
+                        <input type="submit" value="save" class="input-submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
